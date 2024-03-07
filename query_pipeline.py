@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 import os # for env variables
-import re # for regex (needed for doc parsing etc)
 import logging
 import sys
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
@@ -13,7 +12,7 @@ PINECONE_INDEX_NAME = os.getenv('PINECONE_INDEX_NAME')
 
 from llama_index.core.query_pipeline import QueryPipeline, InputComponent
 from llama_index.llms.ollama import Ollama
-from llama_index.core import VectorStoreIndex, PromptTemplate, Settings
+from llama_index.core import VectorStoreIndex, Settings
 from llama_index.core.embeddings import resolve_embed_model
 
 Settings.embed_model = resolve_embed_model('local:BAAI/bge-small-en-v1.5')
