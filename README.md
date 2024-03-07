@@ -6,7 +6,10 @@ A RAG (Retriever Augmented Generation) powered smart assistant for DeFi.
 
 - Python (version 3.11.8)
 - Pip (version 23.3.1)
-
+- A `.env` file with the following fields
+    ```text
+    PINECONE_API_KEY=<your_api_key>
+    PINECONE_INDEX_NAME=<index_name>
 ## Installation
 
 1. Clone the repository:

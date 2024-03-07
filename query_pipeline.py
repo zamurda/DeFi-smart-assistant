@@ -10,7 +10,6 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 load_dotenv()
 PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
 PINECONE_INDEX_NAME = os.getenv('PINECONE_INDEX_NAME')
-COHERE_API_KEY = os.getenv('COHERE_API_KEY')
 
 from llama_index.core.query_pipeline import QueryPipeline
 from llama_index.llms.ollama import Ollama
