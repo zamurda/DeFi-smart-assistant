@@ -1,0 +1,13 @@
+llama-index>=0.10.15
+pinecone-client>=3.0.0
+llama-index-llms-ollama
+llama-index-llms-huggingface
+ollama
+arize-phoenix[evals]
+openinference-instrumentation-llama-index>=1.0.0
+llama-index-callbacks-arize-phoenix>=0.1.2
+llama-index-vector-stores-pinecone
+llama-index-embeddings-huggingface
+python-dotenv
+pydantic
+streamlit
