@@ -10,6 +10,8 @@ A RAG (Retriever Augmented Generation) powered smart assistant for DeFi.
     ```text
     PINECONE_API_KEY=<your_api_key>
     PINECONE_INDEX_NAME=<index_name>
+- `Ollama`
+
 ## Installation
 
 1. Clone the repository:
@@ -39,9 +41,10 @@ A RAG (Retriever Augmented Generation) powered smart assistant for DeFi.
 
 ## Usage
 
-1. Run the app:
+1. Load in `mistral-7B` and run the app:
 
     ```bash
+    ollama pull mistral
     streamlit run app.py
     ```
 
