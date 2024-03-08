@@ -10,6 +10,8 @@ A RAG (Retriever Augmented Generation) powered smart assistant for DeFi.
     ```text
     PINECONE_API_KEY=<your_api_key>
     PINECONE_INDEX_NAME=<index_name>
+    ```
+    (Note: the project assumes you have access to a pinecone database populated with DeFi documentation).
 - `Ollama`
 
 ## Installation
